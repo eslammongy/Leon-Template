@@ -170,3 +170,43 @@ body {
 
 
 /* end landing section */
+
+
+/* start features section */
+
+.features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.features .feet {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+}
+
+.features .feet i {
+    color: var(--main-color);
+}
+
+.features .feet h3 {
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.features .feet p {
+    line-height: 1.8;
+    color: rgb(161, 161, 161);
+    font-size: 17px;
+}
+
+
+/* end features section */
